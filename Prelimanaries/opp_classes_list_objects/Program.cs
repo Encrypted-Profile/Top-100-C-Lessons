@@ -30,12 +30,10 @@ namespace opp_classes_list_objects
                 int id = Int32.Parse(ReadLine());
                 if (id == 0)
                     break;
-                WriteLine("Enter Sudent Nmae");
+                WriteLine("Enter Sudent Name");
                 string name=ReadLine();
                 WriteLine("Enter Sudent Father Name");
                 string father=ReadLine();
-
-                
 
                 obj = new Students()
                 {
